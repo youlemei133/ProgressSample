@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyRatingStyle">
+        <item name="android:progressDrawable">@drawable/rating_layer</item>
+        <!--这里设置成图片的高度-->
+        <item name="android:minHeight">24px</item>
+    </style>
+</resources>
